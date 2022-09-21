@@ -52,7 +52,7 @@ gcloud services enable \
 cd dotnet/hello-world-gcf
 ```
 
-2. Take a look at the sample code: <walkthrough-editor-open-file filePath="dotnet/hello-world-gcf/Program.cs">Program.cs
+2. Take a look at the sample code: <walkthrough-editor-open-file filePath="cloudshell_open/gcp-serverless-101/dotnet/hello-world-gcf/Program.cs">Program.cs
    </walkthrough-editor-open-file>
 
 3. Deploy the function
@@ -87,7 +87,7 @@ gcloud functions describe csharp-http-function --gen2 --format="value(serviceCon
 cd ../hello-world-source
 ```
 
-2. Take a look at the sample code: <walkthrough-editor-open-file filePath="dotnet/hello-world-source/Program.cs">Program.cs
+2. Take a look at the sample code: <walkthrough-editor-open-file filePath="cloudshell_open/gcp-serverless-101/dotnet/hello-world-source/Program.cs">Program.cs
    </walkthrough-editor-open-file>
 
 3. Deploy the Cloud Run service from source:
@@ -118,7 +118,7 @@ gcloud run services describe csharp-run-source --format="value(status.address.ur
 cd ../hello-world-docker
 ```
 
-2. Take a look at the sample Dockerfile: <walkthrough-editor-open-file filePath="dotnet/hello-world-docker/Dockerfile">Dockerfile
+2. Take a look at the sample Dockerfile: <walkthrough-editor-open-file filePath="cloudshell_open/gcp-serverless-101/dotnet/hello-world-docker/Dockerfile">Dockerfile
    </walkthrough-editor-open-file>
 
 3. Create an Artifact Registry repository:
