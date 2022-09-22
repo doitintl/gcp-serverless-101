@@ -49,10 +49,10 @@ gcloud services enable \
 1. Change to the directory that contains the C# Cloud Function sample code:
 
 ```sh
-cd dotnet/hello-world-gcf
+cd dotnet/gcf-hw-http
 ```
 
-2. Take a look at the sample code: <walkthrough-editor-open-file filePath="cloudshell_open/gcp-serverless-101/dotnet/hello-world-gcf/Program.cs">Program.cs
+2. Take a look at the sample code: <walkthrough-editor-open-file filePath="gcf-hw-http/Program.cs">Program.cs
    </walkthrough-editor-open-file>
 
 3. Deploy the function
@@ -84,10 +84,10 @@ gcloud functions describe csharp-http-function --gen2 --format="value(serviceCon
 1. Change to the directory that contains the C# Cloud Run sample code:
 
 ```sh
-cd ../hello-world-source
+cd ../run-hw-source
 ```
 
-2. Take a look at the sample code: <walkthrough-editor-open-file filePath="cloudshell_open/gcp-serverless-101/dotnet/hello-world-source/Program.cs">Program.cs
+2. Take a look at the sample code: <walkthrough-editor-open-file filePath="run-hw-source/Program.cs">Program.cs
    </walkthrough-editor-open-file>
 
 3. Deploy the Cloud Run service from source:
@@ -115,10 +115,10 @@ gcloud run services describe csharp-run-source --format="value(status.address.ur
 1. Change to the directory that contains the C# Cloud Run sample code:
 
 ```sh
-cd ../hello-world-docker
+cd ../run-hw-docker
 ```
 
-2. Take a look at the sample Dockerfile: <walkthrough-editor-open-file filePath="cloudshell_open/gcp-serverless-101/dotnet/hello-world-docker/Dockerfile">Dockerfile
+2. Take a look at the sample Dockerfile: <walkthrough-editor-open-file filePath="run-hw-docker/Dockerfile">Dockerfile
    </walkthrough-editor-open-file>
 
 3. Create an Artifact Registry repository:
